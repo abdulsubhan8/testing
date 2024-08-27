@@ -2,8 +2,6 @@ import datetime
 import json
 from flask import Flask, request, jsonify, render_template, redirect, session , url_for, flash
 from flask_cors import CORS
-import firebase_admin
-from firebase_admin import credentials , auth , firestore
 import requests
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
