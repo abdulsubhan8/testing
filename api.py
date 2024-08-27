@@ -146,7 +146,7 @@ CLIENT_SECRETS_FILE = "client_secret.json"
 
 # This OAuth 2.0 access scope allows for full read/write access to the
 # authenticated user's account and requires requests to use an SSL connection.
-SCOPES = ['https://www.googleapis.com/auth/gmail.send']
+SCOPES = ['https://mail.google.com/']
 
 @app.route('/authorize')
 def authorize():
